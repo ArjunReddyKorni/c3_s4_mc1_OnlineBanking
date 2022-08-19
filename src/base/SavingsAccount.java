@@ -33,6 +33,16 @@ public class SavingsAccount extends BankAccount {
         }
         return getAvilableBalance();
     }
+    public void display(){
+        System.out.println("             Details of Savings Account ");
+        System.out.println("Avialble Balance = "+getAvilableBalance());
+        System.out.println("Account Number = "+getAccountNumber());
+        System.out.println("Account Opening Date = "+getAccountOpeningDate());
+        System.out.println("Total Balance = "+getTotalBalance());
+        System.out.println("Mode Of Operation = "+getModeOfOperation());
+        System.out.println("Rate of Intrest = "+getRateOfInterst());
+        System.out.println("isInternetBanking = " + isInternetBanking());
 
+    }
 
 }
